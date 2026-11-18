@@ -1,0 +1,35 @@
+# Python runtime & environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+env/
+ENV/
+
+# Jupyter & IDEs
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Large binary dumps & caches
+*.parquet
+*.pkl
+
+# Logs
+logs/
+*.log
+
+# Base Git submodules/clones
+base_repo/
+
+# Viva preparation, defense guides & speaking scripts (keep private)
+VIVA_PREP_GUIDE.md
+PROJECT_EXPLANATION.md
+PROJECT_GUIDE.md
+presentation/SLIDES_GUIDE.md
+*viva*
+*VIVA*
+*viva_prep*
+*VIVA_PREP*

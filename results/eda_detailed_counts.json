@@ -1,0 +1,20 @@
+{
+  "total_articles": 2000,
+  "fake_count": 1000,
+  "real_count": 1000,
+  "words": {
+    "total": 52864,
+    "fake_mean": 27.83,
+    "real_mean": 25.03
+  },
+  "sentences": {
+    "total": 5200,
+    "fake_mean": 3.0,
+    "real_mean": 2.2
+  },
+  "paragraphs": {
+    "total": 2000,
+    "fake_mean": 1.0,
+    "real_mean": 1.0
+  }
+}

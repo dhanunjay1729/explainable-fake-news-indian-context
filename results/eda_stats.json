@@ -1,0 +1,46 @@
+{
+  "total_samples": 4000,
+  "fake_samples": 2000,
+  "real_samples": 2000,
+  "fake_ratio": 0.5,
+  "char_length_fake": {
+    "mean": 90.53,
+    "median": 77.0,
+    "std": 36.74
+  },
+  "char_length_real": {
+    "mean": 74.78,
+    "median": 76.0,
+    "std": 18.06
+  },
+  "word_count_fake": {
+    "mean": 14.85,
+    "median": 13.0,
+    "std": 6.0
+  },
+  "word_count_real": {
+    "mean": 11.82,
+    "median": 12.0,
+    "std": 2.97
+  },
+  "sentence_count_fake": {
+    "mean": 1.44,
+    "median": 1.0,
+    "std": 0.77
+  },
+  "sentence_count_real": {
+    "mean": 1.05,
+    "median": 1.0,
+    "std": 0.25
+  },
+  "paragraph_count_fake": {
+    "mean": 1.0,
+    "median": 1.0,
+    "std": 0.0
+  },
+  "paragraph_count_real": {
+    "mean": 1.0,
+    "median": 1.0,
+    "std": 0.0
+  }
+}

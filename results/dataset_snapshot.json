@@ -1,0 +1,32 @@
+[
+  {
+    "Sample_ID": 555,
+    "Label": "Real (1)",
+    "Words": 5,
+    "Text_Snippet": "Ready to lift curbs: Kejriwal..."
+  },
+  {
+    "Sample_ID": 3491,
+    "Label": "Real (1)",
+    "Words": 15,
+    "Text_Snippet": "SC refuses pilot\u0089\u00db\u00aas plea against allowing AI to fly non-schedule flights with middle seat..."
+  },
+  {
+    "Sample_ID": 527,
+    "Label": "Fake (0)",
+    "Words": 9,
+    "Text_Snippet": "Old Video Showing India-Pakistan Naval Warships Encounter Shared As......"
+  },
+  {
+    "Sample_ID": 3925,
+    "Label": "Real (1)",
+    "Words": 14,
+    "Text_Snippet": "Mulayam Singh asks about Farooq Abdullah\u00ef\u00bf\u00bds release in Lok Sabha, Speaker doesn\u00ef\u00bf\u00bdt raise..."
+  },
+  {
+    "Sample_ID": 2989,
+    "Label": "Fake (0)",
+    "Words": 11,
+    "Text_Snippet": "Fact Check: This video of a \u00d4strange creature\u00d5 climbing on church......"
+  }
+]

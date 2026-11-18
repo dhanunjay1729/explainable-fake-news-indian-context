@@ -1,0 +1,38 @@
+{
+  "TF-IDF (Unigram)": {
+    "dimensionality": 10000,
+    "accuracy": 0.9062,
+    "f1_macro": 0.9058,
+    "roc_auc": 0.9539,
+    "feature_extraction_time": 0.042,
+    "model_training_time": 0.0246,
+    "total_time_seconds": 0.0666
+  },
+  "TF-IDF (Bigram)": {
+    "dimensionality": 15000,
+    "accuracy": 0.8263,
+    "f1_macro": 0.8235,
+    "roc_auc": 0.888,
+    "feature_extraction_time": 0.0638,
+    "model_training_time": 0.0109,
+    "total_time_seconds": 0.0747
+  },
+  "TF-IDF (1-2 gram)": {
+    "dimensionality": 20000,
+    "accuracy": 0.9062,
+    "f1_macro": 0.9058,
+    "roc_auc": 0.9543,
+    "feature_extraction_time": 0.0886,
+    "model_training_time": 0.0305,
+    "total_time_seconds": 0.1191
+  },
+  "Word2Vec (Avg 100d)": {
+    "dimensionality": 100,
+    "accuracy": 0.8788,
+    "f1_macro": 0.8784,
+    "roc_auc": 0.9303,
+    "feature_extraction_time": 0.9929,
+    "model_training_time": 0.0294,
+    "total_time_seconds": 1.0223
+  }
+}

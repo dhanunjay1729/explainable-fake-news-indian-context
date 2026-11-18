@@ -1,0 +1,170 @@
+[
+  {
+    "case_id": 1,
+    "description": "Identifies emotional, sensationalist, or conspiratorial lexical cues.",
+    "text": "Fact Check: The video of astronaut jumping from space is fake.Fact Check: This is not the video of missing IAF pilot",
+    "ground_truth": "Fake",
+    "predicted": "Fake",
+    "probability_fake": 0.9969,
+    "probability_real": 0.0031,
+    "top_lime_features": [
+      [
+        "video",
+        -0.0955701013854677
+      ],
+      [
+        "Check",
+        -0.09470561641996628
+      ],
+      [
+        "Fact",
+        -0.08795324340811518
+      ],
+      [
+        "fake",
+        -0.058302735796561
+      ],
+      [
+        "astronaut",
+        0.011239653781909761
+      ],
+      [
+        "pilot",
+        0.011018786826390877
+      ],
+      [
+        "missing",
+        0.01082262137837174
+      ],
+      [
+        "jumping",
+        0.010723373853997445
+      ],
+      [
+        "space",
+        0.010223404911452077
+      ],
+      [
+        "not",
+        -0.006056285040142814
+      ]
+    ]
+  },
+  {
+    "case_id": 2,
+    "description": "Identifies institutional proper nouns and verified reporting verbiage.",
+    "text": "SC didn\u0092t go into technical aspects of Rafale, only JPC can probe irregularities: Congress",
+    "ground_truth": "Real",
+    "predicted": "Real",
+    "probability_fake": 0.0565,
+    "probability_real": 0.9435,
+    "top_lime_features": [
+      [
+        "SC",
+        0.16953205364882298
+      ],
+      [
+        "Congress",
+        0.04364867255125784
+      ],
+      [
+        "go",
+        -0.026856459606297473
+      ],
+      [
+        "probe",
+        0.026557746869875845
+      ],
+      [
+        "Rafale",
+        0.01209100555307715
+      ],
+      [
+        "can",
+        -0.0040863799587938865
+      ],
+      [
+        "only",
+        0.002848986243545536
+      ],
+      [
+        "technical",
+        -0.002622848672113225
+      ],
+      [
+        "irregularities",
+        0.0019595073756435316
+      ],
+      [
+        "into",
+        -0.0018993113630567393
+      ]
+    ]
+  },
+  {
+    "case_id": 3,
+    "description": "Diagnostic evaluation: Sensationalist tokens in legitimate news confusing the classifier.",
+    "text": "Burj Khalifa displays Mahatma Gandhi\u0089\u00db\u00aas image",
+    "ground_truth": "Real",
+    "predicted": "Fake",
+    "probability_fake": 0.5249,
+    "probability_real": 0.4751,
+    "top_lime_features": [
+      [
+        "image",
+        -0.202976099763588
+      ],
+      [
+        "Mahatma",
+        0.04602785057339509
+      ],
+      [
+        "Burj",
+        0.03992087931762739
+      ],
+      [
+        "Khalifa",
+        0.03796727353737911
+      ],
+      [
+        "displays",
+        0.011032472585154348
+      ],
+      [
+        "Gandhi",
+        -0.007829885698911784
+      ],
+      [
+        "\u00db\u00aas",
+        0.0017795675637883328
+      ]
+    ]
+  },
+  {
+    "case_id": 4,
+    "description": "Diagnostic evaluation: Deceptive mimicry of official administrative syntax.",
+    "text": "Neta Profiling ? Party Wise",
+    "ground_truth": "Fake",
+    "predicted": "Real",
+    "probability_fake": 0.3066,
+    "probability_real": 0.6934,
+    "top_lime_features": [
+      [
+        "Party",
+        0.043629234918842734
+      ],
+      [
+        "Wise",
+        -0.0001637323210795147
+      ],
+      [
+        "Neta",
+        -0.00015347780552108065
+      ],
+      [
+        "Profiling",
+        -0.000143951672658138
+      ]
+    ]
+  }
+]

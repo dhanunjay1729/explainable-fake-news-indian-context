@@ -1,0 +1,62 @@
+{
+  "Multinomial NB": {
+    "standard": {
+      "accuracy": 0.8912,
+      "precision": 0.9129,
+      "recall": 0.865,
+      "f1_macro": 0.8912,
+      "f1_weighted": 0.8912,
+      "roc_auc": 0.9559
+    },
+    "indian_context": {
+      "accuracy": 0.8875,
+      "precision": 0.9144,
+      "recall": 0.855,
+      "f1_macro": 0.8874,
+      "f1_weighted": 0.8874,
+      "roc_auc": 0.9541
+    },
+    "delta_f1_macro": -0.0038,
+    "delta_pct": "-0.38%"
+  },
+  "Logistic Regression": {
+    "standard": {
+      "accuracy": 0.9062,
+      "precision": 0.8556,
+      "recall": 0.9775,
+      "f1_macro": 0.9058,
+      "f1_weighted": 0.9058,
+      "roc_auc": 0.9562
+    },
+    "indian_context": {
+      "accuracy": 0.9075,
+      "precision": 0.8575,
+      "recall": 0.9775,
+      "f1_macro": 0.907,
+      "f1_weighted": 0.907,
+      "roc_auc": 0.9533
+    },
+    "delta_f1_macro": 0.0012,
+    "delta_pct": "+0.12%"
+  },
+  "Linear SVM": {
+    "standard": {
+      "accuracy": 0.92,
+      "precision": 0.9078,
+      "recall": 0.935,
+      "f1_macro": 0.92,
+      "f1_weighted": 0.92,
+      "roc_auc": 0.959
+    },
+    "indian_context": {
+      "accuracy": 0.9187,
+      "precision": 0.9036,
+      "recall": 0.9375,
+      "f1_macro": 0.9187,
+      "f1_weighted": 0.9187,
+      "roc_auc": 0.9567
+    },
+    "delta_f1_macro": -0.0013,
+    "delta_pct": "-0.13%"
+  }
+}
